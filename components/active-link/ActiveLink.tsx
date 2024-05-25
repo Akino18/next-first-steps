@@ -1,7 +1,7 @@
 'use client'
 
 import Link from "next/link"
-import style from "./activeLink.module.css"
+import style from "./ActiveLink.module.css"
 import { usePathname } from "next/navigation"
 interface props {
     text: string,
